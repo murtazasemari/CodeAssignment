@@ -2,6 +2,7 @@ package com.main;
 
 import com.creature.Animal;
 import com.creature.Bird;
+import com.creature.birds.Butterfly;
 import com.creature.birds.Chicken;
 import com.creature.birds.Duck;
 import com.creature.birds.Rooster;
@@ -14,7 +15,27 @@ public class Solution {
 	public static void main(String[] args) {
 		getBirds();
 		getFish();
+		getButterfly();
 
+	}
+
+	private static void getButterfly() {
+		
+		//D. Model animals that change their behaviour over time
+		
+		System.out.println("---------------------------Model 3 ----------------------");
+		
+		Bird b1 = new Butterfly();
+		if(b1.fly()) {
+			System.out.println("I can Fly");
+		}
+		
+		if(b1.sound()) {
+			System.out.println("Hey I can Talk");
+		}else {
+			System.out.println("I cannot make a sound");
+		}
+		
 	}
 
 	private static void getFish() {
