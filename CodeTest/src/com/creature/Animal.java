@@ -2,14 +2,27 @@ package com.creature;
 
 public interface Animal {
 	
-	public void walk() ;
+	public default boolean walk() {
+		return false;
+		
+	}
 	
-	public void sing() ;
+	public default boolean sing() {
+		return false;
+		
+	}
 	
-	public void sound();
+	public default boolean sound() {
+		return false;
+		
+	}
 	
-	public void size();
+	public default void size() {
+		System.out.println("Size always Various of Animals");
+	};
 	
-	public void eat();
+	public default void eat() {
+		System.out.println("Different Animals eats Different Food");
+	}
 	
 }

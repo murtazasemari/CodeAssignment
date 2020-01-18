@@ -1,10 +1,11 @@
 package com.creature.birds;
 
 import com.creature.Animal;
+import com.creature.Bird;
 import com.creature.pets.Cats;
 import com.creature.pets.Dogs;
 
-public class TalkingParrots {
+public class Parrot implements Bird, Animal {
 	
 	
 	public void getSound(String sound) {

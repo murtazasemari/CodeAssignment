@@ -4,23 +4,20 @@ import com.creature.Animal;
 
 public abstract class SeaCreature implements Animal {
 
-	public void walk() {
+	public boolean walk() {
 		System.out.println("Sorry I cannot Walk");
+		return false;
 
 	}
 
-	public void sing() {
+	public boolean sing() {
 		System.out.println("Sorry I cannot Sing");
+		return false;
 
 	}
-	
 
-	public void sound() {		
-	}
+	public abstract void swim();
 
-	
-
-	public abstract void swim() ;
 	public abstract Animal getFish(String size);
 
 }

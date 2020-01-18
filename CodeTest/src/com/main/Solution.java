@@ -5,7 +5,7 @@ import com.creature.Bird;
 import com.creature.birds.Chicken;
 import com.creature.birds.Duck;
 import com.creature.birds.Rooster;
-import com.creature.birds.TalkingParrots;
+import com.creature.birds.Parrot;
 import com.creature.fish.Dolphin;
 import com.creature.fish.SeaCreature;
 import com.creature.fish.fish;
@@ -58,7 +58,7 @@ public class Solution {
 		b1 = new Rooster();
 		b1.sound();
 
-		TalkingParrots p1 = new TalkingParrots();
+		Parrot p1 = new Parrot();
 		p1.getSound("dogs");
 		p1.getSound("cats");
 		p1.getSound("rhooster");

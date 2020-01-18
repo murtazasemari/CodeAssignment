@@ -22,15 +22,4 @@ public class fish extends SeaCreature {
 		
 	}
 
-	@Override
-	public void eat() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void size() {
-		// TODO Auto-generated method stub
-		
-	}
 }

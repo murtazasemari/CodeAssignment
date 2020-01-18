@@ -9,8 +9,9 @@ public class Clownfish extends fish {
 	}
 
 	@Override
-	public void sing() {
+	public boolean sing() {
 		System.out.println("Clownfish make jokes");
+		return false;
 
 	}
 

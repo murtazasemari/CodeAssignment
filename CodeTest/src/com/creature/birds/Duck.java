@@ -5,45 +5,16 @@ import com.creature.Bird;
 public class Duck implements Bird {
 
 	@Override
-	public void sound() {
+	public boolean sound() {
 		System.out.println("Duck Says Quack, quack");
-		
+		return true;
+
 	}
 
 	@Override
-	public void walk() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void sing() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void fly() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void swim() {
+	public boolean swim() {
 		System.out.println("Duck : Hey Look I can Swim");
-		
+		return true;
 	}
 
-	@Override
-	public void size() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void eat() {
-		// TODO Auto-generated method stub
-		
-	}
-
-} 
+}
