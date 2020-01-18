@@ -8,4 +8,8 @@ public interface Animal {
 	
 	public void sound();
 	
+	public void size();
+	
+	public void eat();
+	
 }
