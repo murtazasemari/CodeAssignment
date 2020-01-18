@@ -1,14 +1,11 @@
 package com.creature;
 
-public class Animal {
+public interface Animal {
 	
-	public void walk() {
-		System.out.println("I am walking");
-	}
+	public void walk() ;
 	
-	public void sing() {
-		System.out.println("I am Singing");
-	}
+	public void sing() ;
 	
+	public void sound();
 	
 }

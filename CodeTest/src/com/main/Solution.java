@@ -1,14 +1,25 @@
 package com.main;
 
-import com.creature.Bird;
+import com.creature.birds.Chicken;
+import com.creature.birds.Duck;
 
 public class Solution {
 	public static void main(String[] args) {
-		Bird bird = new Bird();
-		bird.walk();
-		bird.fly();
+		getBirds();
 		
-		bird.sing();
+	}
+
+	private static void getBirds() {
+	
+	//Chicken Sound and cannot swim
+	Chicken ck = new Chicken();
+	ck.sound();
+	ck.fly();
+	
+	//Duck Sound and can swim
+	Duck dk = new Duck();
+	dk.sound();
+	dk.swim();
 		
 	}
 }	
