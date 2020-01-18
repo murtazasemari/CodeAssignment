@@ -6,6 +6,7 @@ import com.creature.birds.Chicken;
 import com.creature.birds.Duck;
 import com.creature.birds.Rooster;
 import com.creature.birds.TalkingParrots;
+import com.creature.fish.Dolphin;
 import com.creature.fish.SeaCreature;
 import com.creature.fish.fish;
 
@@ -34,8 +35,10 @@ public class Solution {
 		ani1.size();
 		ani1.eat();
 		
+		//Reuse the Bird Interface with Dolphin
+		Bird b1 = new Dolphin();
+		b1.swim();
 		
-
 
 	}
 
