@@ -26,9 +26,42 @@ public class Solution {
 		getFish();
 		getButterfly();
 
-		//getCount();
+		getCount();
 
 	}
+	
+	private static void getCount() {
+
+		// E Get Count of Animals Behaviours
+		System.out.println("-------------------------Model 4----------------------");
+
+		Animal[] animals = new Animal[] {
+				new Duck(), 
+				new Chicken(),
+				new Rooster(), 
+				new Parrot(), 
+				new Shark(),
+				new Clownfish(), 
+				new Dolphin(), 
+				new Dogs(), 
+				new Butterfly(), 
+				new Cats()
+		};
+
+		long countFly = Stream.of(animals).filter(animal -> animal instanceof Bird).map(animal -> (Bird) animal)
+				.filter(animal -> animal.fly()).count();
+		long countWalk = Stream.of(animals).filter(animal -> animal.walk()).count();
+		long countSing = Stream.of(animals).filter(animal -> animal.sing()).count();
+		long countSwim = Stream.of(animals).filter(animal -> animal.swim()).count();
+
+		System.out.println("how many of these animals can fly:" + countFly);
+		System.out.println("how many of these animals can Walk:" + countWalk);
+		System.out.println("how many of these animals can Sing:" + countSing);
+		System.out.println("how many of these animals can Swim:" + countSwim);
+
+
+	}
+
 
 	
 	private static void getButterfly() {
