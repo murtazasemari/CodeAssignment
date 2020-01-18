@@ -6,5 +6,9 @@ public class Animal {
 		System.out.println("I am walking");
 	}
 	
+	public void sing() {
+		System.out.println("I am Singing");
+	}
+	
 	
 }
