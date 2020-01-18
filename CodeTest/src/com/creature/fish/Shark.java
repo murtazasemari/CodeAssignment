@@ -1,14 +1,8 @@
 package com.creature.fish;
 
-import com.creature.Animal;
+public class Shark  extends fish {
 
-public class Shark  extends fish implements Animal{
-
-	@Override
-	public void sound() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	@Override
 	public void size() {

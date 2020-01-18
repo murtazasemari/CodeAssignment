@@ -18,10 +18,9 @@ public abstract class SeaCreature implements Animal {
 	public void sound() {		
 	}
 
-	public void size() {		
-	}
+	
 
 	public abstract void swim() ;
-	abstract Animal getSize(String size);
+	public abstract Animal getFish(String size);
 
 }
