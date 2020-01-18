@@ -25,4 +25,8 @@ public interface Animal {
 		System.out.println("Different Animals eats Different Food");
 	}
 	
+	public default boolean swim() {
+		return false;
+	};
+	
 }

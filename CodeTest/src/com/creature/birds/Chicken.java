@@ -17,5 +17,10 @@ public class Chicken implements Bird {
 		return false;
 
 	}
+	
+	@Override
+	public boolean walk() {
+		return true;
+	}
 
 }

@@ -5,8 +5,9 @@ import com.creature.Animal;
 public class fish extends SeaCreature {
 
 	@Override
-	public void swim() {
+	public boolean swim() {
 		System.out.println("Hey Look I can Swim");
+		return true;
 
 	}
 

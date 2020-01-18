@@ -16,7 +16,7 @@ public abstract class SeaCreature implements Animal {
 
 	}
 
-	public abstract void swim();
+	public abstract boolean swim();
 
 	public abstract Animal getFish(String size);
 

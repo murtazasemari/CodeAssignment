@@ -10,5 +10,12 @@ public class Dogs implements Animal {
 		return true;
 
 	}
+	
+	@Override
+	public boolean walk() {
+		
+		return true;
+
+	}
 
 }

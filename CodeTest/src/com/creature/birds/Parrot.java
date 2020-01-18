@@ -32,6 +32,15 @@ public class Parrot implements Bird, Animal {
 	
 		
 	}
+	@Override
+	public boolean fly() {
+		return true;
+	}
+	
+	@Override
+	public boolean sing() {
+		return true;
+	}
 	
 	
 
